@@ -1,0 +1,82 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body h1 {
+    display: inline-block;
+}
+body h2 {
+    display: inline-block;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.centered {
+    margin: 0 auto;
+}
+
+div.banner {
+    margin-top: 580px;
+}
+
+#meerweten {
+    background-color: rgb(255, 231, 25);
+    padding: 35px 0;
+}
+#meerweten > *:first-child {
+    margin-left: 470px;
+}
+#meerweten > * {
+    margin-left: 50px;
+}
+#meerweten button {
+    margin-left: 200px;
+}
+button {
+    font-weight: bold;
+    display: inline-block;
+    padding: 9px 43px;
+
+    background-color: white;
+    color: rgb(60, 60, 60);
+    border: none;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+div.banner img {
+    opacity: 1;
+    transition: opacity 0.15s ease-in-out;
+}
+
+div.subbanner {
+
+    width: 320px;
+    height: 80px;
+    background-color: rgb(255, 231, 25);
+}
+
+#hr hr {
+    background-color: rgb(180, 180, 180);
+    border: 0;
+    height: 1px;
+}
+
+
+#footer {
+    padding: 16px 0;
+
+    color: rgb(230, 230, 230);
+    background-color: rgb(60, 60, 60);
+
+    text-align: right;
+}

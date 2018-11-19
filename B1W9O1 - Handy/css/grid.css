@@ -1,0 +1,52 @@
+#container {
+    display: grid;
+    grid-template-areas:
+            'title title title'
+            'menu menu menu'
+            'sbanner1 sbanner2 sbanner3'
+            'meerweten meerweten meerweten'
+            'deals diensten contact'
+            'hr hr hr'
+            'about about about'
+            'footer footer footer';
+}
+
+#title {
+    grid-area: title;
+}
+#menu {
+    grid-area: menu;
+}
+#sbanner1 {
+    grid-area: sbanner1;
+}
+#sbanner2 {
+    grid-area: sbanner2;
+}
+#sbanner3 {
+    grid-area: sbanner3;
+}
+#deals {
+    grid-area: deals;
+}
+#diensten {
+    grid-area: diensten;
+}
+
+#meerweten {
+    grid-area: meerweten;
+}
+
+#contact {
+    grid-area: contact;
+}
+#hr {
+   grid-area: hr;
+}
+#about {
+    grid-area: about;
+}
+#diensten-text {
+    margin-top: 560px;
+    grid-area: 3 / 1 / 4 / 4;
+}

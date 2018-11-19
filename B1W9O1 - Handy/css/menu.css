@@ -1,0 +1,28 @@
+#menu {
+    background-color: rgb(60, 60, 60);
+}
+
+#menu ul.main_menu, #menu div {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+ }
+#menu ul.main_menu > li, #menu ul.main_menu > div {
+    margin: 0;
+    display: inline-block;
+    padding: 11px 12px;
+}
+
+a, #aboutMenuTab {
+    color: rgb(230, 230, 230);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#container > a {
+    margin: 0;
+    padding: 0;
+}

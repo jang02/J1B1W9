@@ -1,0 +1,85 @@
+div.banner {
+    font-size: 32px;
+}
+
+
+#meerweten h1 {
+    font-size: 34px;
+}
+#meerweten h2 {
+    font-weight:normal;
+    font-size: 16px;
+}
+button {
+    font-size: 12px;
+}
+
+div.subbanner > div {
+    display: inline-block;
+    font-size: 50px;
+}
+div.subbanner > div.text  h1 {
+    font-size: 22px;
+}
+div.subbanner > div.text  h2 {
+    font-size: 14px;
+}
+
+#menu {
+    font-size: 12px;
+}
+
+#about h1 {
+    font-size: 24px;
+}
+#about h2 {
+    display: inline;
+    font-size: 24px;
+}
+#about h3 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+#about {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#text h1 {
+    font-size: 34px;
+    line-height: 18px;
+}
+
+div.contact-text h2 {
+    color: gray;
+}
+div.contact-text h3 {
+    color: gray;
+    display: inline;
+    width: 125px;
+}
+
+#footer h1 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 150px;
+}
+
+#diensten-text p {
+    color: rgb(150, 150, 150);
+    font-size: 13px;
+}
+
+#diensten-text h1 {
+    font-size: 34px;
+}
+
+#diensten-text {
+    font-weight: bold;
+}
+
+#diensten-text span {
+    color: rgb(255, 231, 25);
+}

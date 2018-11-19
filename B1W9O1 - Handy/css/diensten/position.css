@@ -1,0 +1,56 @@
+#meerweten {
+    position: relative;
+    bottom: 950px; /*56*/
+
+    width: 99vw;
+}
+
+#footer {
+    position: absolute;
+    top: 1975px; /*56*/
+    width: 99vw;
+}
+
+div.subbanner{
+    margin-top: 525px;
+}
+div.subbanner > div {
+    margin-left: 20px;
+}
+div.subbanner > div.text  h1 {
+    margin-bottom: 0;
+}
+div.subbanner > div.text  h2 {
+    margin-top: 0;
+}
+
+#hr {
+    margin-top: 55px;
+}
+
+div.about-text {
+    width: 400px;
+    padding-right: 200px;
+}
+div.contact-text img{
+    width: 300px;
+}
+div.about-text:not(h1), div.contact-text:not(h1) {
+    display: inline;
+    margin-top: 40px;
+}
+
+#header, #footerImage {
+    z-index: -1;
+    width: 99vw;
+}
+
+#header {
+    position: absolute;
+    top: 68px;
+}
+
+#footerImage {
+    position: absolute;
+    top: 1200px;
+}
